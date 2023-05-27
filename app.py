@@ -1,6 +1,6 @@
 import os
 os.system(f"git lfs install")
-os.system(f"git clone -b v2.3 https://github.com/camenduru/stable-diffusion-webui /home/demo/source/stable-diffusion-webui")
+os.system(f"git clone -b v2.1 https://github.com/camenduru/stable-diffusion-webui /home/demo/source/stable-diffusion-webui")
 os.chdir(f"/home/demo/source/stable-diffusion-webui")
 
 os.system(f"git clone https://huggingface.co/embed/negative /home/demo/source/stable-diffusion-webui/embeddings/negative")
@@ -74,4 +74,4 @@ os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggin
 
 # os.system(f"sed -i -e 's/\"sd_model_checkpoint\"\,/\"sd_model_checkpoint\,sd_vae\,CLIP_stop_at_last_layers\"\,/g' /home/demo/source/stable-diffusion-webui/modules/shared.py")
 
-os.system(f"python launch.py --port 8266 --listen --cors-allow-origins=* --xformers --enable-insecure-extension-access --theme dark --gradio-queue --disable-safe-unpickle --api --api-log")
+os.system(f"python launch.py --port 8266 --listen --cors-allow-origins=* --xformers --enable-insecure-extension-access --theme dark --gradio-queue --disable-safe-unpickle --api --api-log --nowebui")
