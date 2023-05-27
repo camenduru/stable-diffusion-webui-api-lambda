@@ -9,6 +9,13 @@ app_file: app.py
 🐣 Please follow me for new updates https://twitter.com/camenduru <br />
 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU
 
+### Tutorial
+
+If your jupyter adress this <br />
+https://jupyter.edda7a5f274e54810366d8af9c3b83.lambdaspaces.com/lab <br />
+Your API docs address is this <br />
+https://demo.edda7a5f274e54810366d8af9c3b83.lambdaspaces.com/docs <br />
+
 ### Stable Diffusion Web UI
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
